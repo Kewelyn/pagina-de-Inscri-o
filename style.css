@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
+
+*{
+    background-color: rgb(36, 36, 36);
+    font-family: 'Poppins', sans-serif;
+    margin-left: 11px;
+    margin-right: 11px;
+}
+
+header{
+    color: #fff;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+header h2{
+    font-weight: bold;
+    font-size: large;
+}
+
+header ul{
+    list-style: none;
+    justify-content: space-between;
+    display: flex;
+
+}    
+
+header li a{
+    display: flex;
+    margin-right: 18px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.bottom-nav{
+    border-color: rgb(160, 14, 173);
+    border-radius: 13px;
+    border: 2px solid rgb(160, 14, 173);
+    margin-right: 10px;
+    height: 35px;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+
+
+.formulario {
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+}    
+
+.texto {
+    flex: 1;
+}
+
+.img {
+    flex: 1;
+    text-align: center; 
+    margin-top: 50px;;
+}
+
+.texto{
+    color:#fff;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+}
+
+.texto h2{
+    color: rgb(160, 14, 173);
+    font-size: 3.5em;
+    font-weight: 900;
+}
+
+.texto span{
+    color: #fff;
+    display: block;
+    font-weight: 900;
+}
+
+.texto p{
+    text-align: left;
+    margin-right: 90px;
+    margin-top: -40px;
+    padding-bottom: 10px;
+}
+
+.texto input{
+    display: flex;
+    background-color: #fff;
+    margin-bottom: 14px;
+    height: 40px;
+    width: 60vh;
+    border-radius: 50px;
+    border: none;
+    align-items: center; 
+    text-align: left;
+    justify-content: center;
+}
+
+.texto bottom{
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    background-color: rgb(160, 14, 173);
+    height: 40px;
+    width: 24vh;
+    border-radius: 50px;
+    text-align: center;
+    font-weight: bold;
+}
+
+/*@media screen and (max-width: 600px) {
+    header {
+        flex-direction: column;
+        align-items: flex-start; 
+    }
+
+    ul {
+        margin-top: 10px; 
+    }
+}*/
